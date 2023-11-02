@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Urbanist:wght@500;600;700;800&display=swap');
+
+
+:root{
+    --primary-color: #fd6145;
+    --secondary-color: #fb991a;
+    --tertiary-color: #60cf56;
+    --black-color: #0c0c0c;
+    --gray-color: #7b7675;
+    --white-color: #fff;
+    --bg-red-color: #faf1ef;
+    --font-outfit: 'Outfit', sans-serif;
+    --font-urbanist: 'Urbanist', sans-serif;
+}
+
+.icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.icon,
+.social-icon{
+    background: var(--bg-red-color);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon i{
+    color: var(--primary-color);
+}
+.bg-orange{
+    background: var(--bg-red-color);
+    padding: 5px 10px;
+    border-radius: 30px;
+}
