@@ -1,5 +1,5 @@
 <!-- header add  -->
-<?php include 'header/header.php' ?>
+<?php include 'include/header.php' ?>
 
 
 <!-- start body  -->
@@ -8,4 +8,4 @@
 
 
 <!-- footer add  -->
-<?php include 'footer/footer.php' ?>
+<?php include 'include/footer.php' ?>
